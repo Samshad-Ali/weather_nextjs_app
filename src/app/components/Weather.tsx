@@ -3,7 +3,7 @@ import ForecastCard from "./ForecastCard";
 
 const Weather = ({ weatherData }:any) => {
   return (
-    <div className="bg-slate-800 overflow-hidden flex justify-center items-center flex-col gap-2 shadow-md shadow-black rounded-md w-[310px] sm:w-[620px] lg:w-[800px] p-4">
+    <div className="bg-slate-800/70 overflow-hidden flex justify-center items-center flex-col gap-2 shadow-md shadow-black rounded-md w-[310px] sm:w-[620px] lg:w-[800px] p-4">
       <p className="text-lg font-semibold">
         {weatherData?.location?.name}, {weatherData?.location?.country}
       </p>

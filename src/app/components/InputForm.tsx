@@ -14,7 +14,7 @@ const InputForm = ({handleChange,handleSubmit,location}:InputFormProps) => {
       value={location}
       onChange={handleChange}
         type="text"
-        className="bg-transparent w-[90%] rounded-md px-4 outline-none p-2 border"
+        className="bg-gray-800/80 w-[90%] rounded-md px-4 outline-none p-2 border"
         placeholder="Enter a cityname.."
       />
       <button

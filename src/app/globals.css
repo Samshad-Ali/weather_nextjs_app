@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(40, 40, 40);
+    background-image: url('/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(40, 40, 40); */
     color: white;
 }
 
