@@ -9,7 +9,7 @@ const Weather = ({ weatherData }:any) => {
       </p>
       <img src={weatherData?.current?.condition?.icon} alt="icon" />
       <h1 className="text-2xl font-extrabold">
-        {weatherData?.current?.temp_c} %
+        {weatherData?.current?.temp_c} °C
       </h1>
       <h2 className="font-bold text-lg sm:text-xl">
         {weatherData?.current?.condition?.text}
