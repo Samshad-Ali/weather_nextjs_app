@@ -22,6 +22,7 @@ const useMain = () => {
         setLoading(true);
         const res = await axios.post('api/weather',{query});
         const data = res?.data?.data;
+        console.log(data)
         if(!data){
           throw new Error;
         }
@@ -34,6 +35,7 @@ const useMain = () => {
     } catch (error: any) {
       setLoading(false);
       setLocation("");
+      console.log(error)
       return toast.error("Something went wrong, try again");
     }
   };
